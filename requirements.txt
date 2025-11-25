@@ -1,0 +1,11 @@
+streamlit>=1.36.0
+numpy
+opencv-python
+pillow
+# + todas as dependências do seu projeto:
+# torch
+# torchvision
+# ultralytics
+# scipy
+# scikit-image
+# onnxruntime-gpu (se usar) ou onnxruntime
