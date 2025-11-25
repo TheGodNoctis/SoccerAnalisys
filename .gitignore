@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights (NÃO SUBA!)
+*.pt
+*.pth
+*.onnx
+
+# Vídeos e mídia pesada
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+
+# Stubs e caches
+stubs/
+runs/
+outputs/
+output/
+output_videos/
+output_reports/
+*.pkl
+
+# Build e empacotamento
+build/
+dist/
+*.spec
+
+# Streamlit cache
+.streamlit/
+
+# Node
+node_modules/
+package-lock.json
+
+# Pastas pesadas ou geradas automaticamente
+camera_movement_estimator/__pycache__/
+player_ball_assigner/__pycache__/
+speed_and_distance_estimator/__pycache__/
+team_assigner/__pycache__/
+trackers/__pycache__/
+view_transformer/__pycache__/
+
+# Logs
+*.log
