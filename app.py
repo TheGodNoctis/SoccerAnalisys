@@ -21,7 +21,6 @@ PALETTE = {
 hide_streamlit_style = """
     <style>
     #MainMenu {visibility: hidden;}   /* Esconde o menu hamburger */
-    header {visibility: hidden;}      /* Esconde o header/deploy */
     footer {visibility: hidden;}      /* Esconde o rodapé padrão */
     </style>
 """
