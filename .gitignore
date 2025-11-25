@@ -1,10 +1,10 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Model weights (NÃO SUBA!)
+# Model weights (não subir)
 *.pt
 *.pth
 *.onnx
@@ -16,14 +16,17 @@ __pycache__/
 *.mkv
 *.gif
 
-# Stubs e caches
+# Stubs gerados automaticamente
 stubs/
-runs/
-outputs/
-output/
+
+# Saídas pesadas (mas NÃO ignorar código!)
 output_videos/
 output_reports/
-*.pkl
+output/
+outputs/
+
+# Execuções
+runs/
 
 # Build e empacotamento
 build/
@@ -35,15 +38,6 @@ dist/
 
 # Node
 node_modules/
-package-lock.json
-
-# Pastas pesadas ou geradas automaticamente
-camera_movement_estimator/__pycache__/
-player_ball_assigner/__pycache__/
-speed_and_distance_estimator/__pycache__/
-team_assigner/__pycache__/
-trackers/__pycache__/
-view_transformer/__pycache__/
 
 # Logs
 *.log
